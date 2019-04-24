@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn dom</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+	
+
+</head>
+<body>
+	<div class="jumbotron">
+		<h2>addEventListener</h2>
+		<div class="row">
+			<input class="btn btn-primary" id="myBtn" type="button" name="" value="click">
+			<input class="btn btn-primary" id="myBtn01" type="button" name="" value="mousedown">
+			<input class="btn btn-primary" id="myBtn02" type="button" name="" value="mouseover">
+			<input class="btn btn-primary" id="myBtn03" type="button" name="" value="mouseout">
+			<input class="btn btn-primary" id="myBtn04" type="button" name="" value="mousemove">
+			<input class="btn btn-primary" id="myBtn05" type="button" name="" value="resize">
+		</div>
+		<br>
+		<h2>querySelectorAll</h2>
+		<h6 class="qsa">A heading with class="qsa"</h6>
+		<p class="qsa">A paragraph with class="qsa"</p>
+		<p class="qsa">A paragraph with class="qsa"</p>
+		<button class="btn btn-primary" onclick="myFunction()">try it</button>
+		<div class="row">
+			<input type="txt" name="text01" id="text01">
+		</div>
+
+		<p id="demo"></p>	
+	</div>
+
+<script type="text/javascript">
+function myFunction(){
+	var q1 =document.querySelectorAll("qsa");
+	q1[0].style.backgroundColor = "red";
+}
+</script>
+
+
+<script type="text/javascript" src="dom_01.js"></script>	
+</body>
+</html>
