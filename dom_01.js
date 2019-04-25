@@ -34,3 +34,10 @@ function myFunction(){
 	document.write(q1);
 	console.log(q1);
 } 
+
+
+
+//select iten
+// document.title
+// document.head
+// document.body
